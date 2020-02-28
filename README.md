@@ -1,4 +1,4 @@
-# Parking Simulator
+# Parking Garage Simulator
 
 ## Cityparking Groningen
 The "Cityparking Groningen" parking garage is located in the center of Groningen, a large city in the northeast of the Netherlands. The garage has 500 parking spaces spread over three floors. The company has 15 employees and is open 24 hours a day, seven days a week.
