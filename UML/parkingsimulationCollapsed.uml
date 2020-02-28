@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>nl.hanze.itv1l.parkingsimulation</OriginalElement>
+  <nodes>
+    <node x="146.0" y="642.0">nl.hanze.itv1l.parkingsimulation.models.Location</node>
+    <node x="299.66666666666663" y="79.0">nl.hanze.itv1l.parkingsimulation.models.CarParkModel</node>
+    <node x="154.99999999999994" y="247.0">nl.hanze.itv1l.parkingsimulation.views.sideTabs.Graph</node>
+    <node x="767.559963768116" y="247.0">nl.hanze.itv1l.parkingsimulation.views.tabs.Tab</node>
+    <node x="457.5" y="489.0">nl.hanze.itv1l.parkingsimulation.models.Time</node>
+    <node x="167.5" y="489.0">nl.hanze.itv1l.parkingsimulation.models.cars.Car</node>
+    <node x="346.24999999999994" y="336.0">nl.hanze.itv1l.parkingsimulation.views.tabs.ArchitectureTabView</node>
+    <node x="63.25" y="336.0">nl.hanze.itv1l.parkingsimulation.views.sideTabs.BarGraphView</node>
+    <node x="0.0" y="568.0">nl.hanze.itv1l.parkingsimulation.models.cars.ParkingPassCar</node>
+    <node x="848.25" y="336.0">nl.hanze.itv1l.parkingsimulation.views.tabs.SubscribersTabView</node>
+    <node x="736.1666666666666" y="158.0">nl.hanze.itv1l.parkingsimulation.controllers.SettingTabsController</node>
+    <node x="591.1666666666666" y="158.0">nl.hanze.itv1l.parkingsimulation.controllers.DataController</node>
+    <node x="205.24999999999994" y="336.0">nl.hanze.itv1l.parkingsimulation.views.sideTabs.PieGraphView</node>
+    <node x="526.9791666666666" y="0.0">nl.hanze.itv1l.parkingsimulation.models.Model</node>
+    <node x="1021.25" y="336.0">nl.hanze.itv1l.parkingsimulation.views.tabs.ArrivalsTabView</node>
+    <node x="1173.25" y="336.0">nl.hanze.itv1l.parkingsimulation.views.tabs.GeneralTabView</node>
+    <node x="605.0" y="489.0">nl.hanze.itv1l.parkingsimulation.runner.ParkingSimulationRunner</node>
+    <node x="532.6692028985507" y="247.0">nl.hanze.itv1l.parkingsimulation.views.SideTabsView</node>
+    <node x="430.0" y="568.0">nl.hanze.itv1l.parkingsimulation.models.Time.DayOfTheWeek</node>
+    <node x="0.0" y="247.0">nl.hanze.itv1l.parkingsimulation.views.SettingTabsView</node>
+    <node x="272.0" y="568.0">nl.hanze.itv1l.parkingsimulation.models.cars.ReservedCar</node>
+    <node x="855.559963768116" y="247.0">nl.hanze.itv1l.parkingsimulation.views.CarParkView</node>
+    <node x="498.16666666666663" y="158.0">nl.hanze.itv1l.parkingsimulation.views.View</node>
+    <node x="919.1666666666666" y="158.0">nl.hanze.itv1l.parkingsimulation.controllers.CarParkController</node>
+    <node x="524.25" y="336.0">nl.hanze.itv1l.parkingsimulation.views.tabs.QueuesTabView</node>
+    <node x="1141.0" y="489.0">nl.hanze.itv1l.parkingsimulation.models.GraphItem</node>
+    <node x="685.1666666666666" y="79.0">nl.hanze.itv1l.parkingsimulation.controllers.Controller</node>
+    <node x="254.16666666666663" y="158.0">nl.hanze.itv1l.parkingsimulation.models.CarParkModel.CarType</node>
+    <node x="149.0" y="568.0">nl.hanze.itv1l.parkingsimulation.models.cars.AdHocCar</node>
+    <node x="214.24999999999994" y="415.0">nl.hanze.itv1l.parkingsimulation.views.sideTabs.PieGraphView.ValueType</node>
+    <node x="366.16666666666663" y="158.0">nl.hanze.itv1l.parkingsimulation.models.CarParkModel.ParkingSpot</node>
+    <node x="677.25" y="336.0">nl.hanze.itv1l.parkingsimulation.views.tabs.PopulationTabView</node>
+    <node x="0.0" y="642.0">nl.hanze.itv1l.parkingsimulation.models.cars.CarQueue</node>
+    <node x="833.0" y="489.0">nl.hanze.itv1l.parkingsimulation.main.Application</node>
+    <node x="987.0" y="489.0">nl.hanze.itv1l.parkingsimulation.models.TimeStamp</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="nl.hanze.itv1l.parkingsimulation.views.tabs.GeneralTabView" target="nl.hanze.itv1l.parkingsimulation.views.tabs.Tab">
+      <point x="0.0" y="-14.5" />
+      <point x="1239.75" y="296.0" />
+      <point x="829.8932971014492" y="296.0" />
+      <point x="28.33333333333337" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.models.CarParkModel.CarType" target="nl.hanze.itv1l.parkingsimulation.models.CarParkModel">
+      <point x="0.0" y="-14.5" />
+      <point x="300.16666666666663" y="138.0" />
+      <point x="330.41666666666663" y="138.0" />
+      <point x="-30.75" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.views.sideTabs.BarGraphView" target="nl.hanze.itv1l.parkingsimulation.views.sideTabs.Graph">
+      <point x="0.0" y="-14.5" />
+      <point x="124.25" y="316.0" />
+      <point x="174.99999999999994" y="316.0" />
+      <point x="-20.0" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.views.tabs.Tab" target="nl.hanze.itv1l.parkingsimulation.views.View">
+      <point x="0.0" y="-14.5" />
+      <point x="801.559963768116" y="217.0" />
+      <point x="549.2666666666667" y="217.0" />
+      <point x="14.600000000000023" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.views.tabs.ArchitectureTabView" target="nl.hanze.itv1l.parkingsimulation.views.tabs.Tab">
+      <point x="0.0" y="-14.5" />
+      <point x="425.24999999999994" y="296.0" />
+      <point x="773.2266304347825" y="296.0" />
+      <point x="-28.33333333333337" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.models.cars.ReservedCar" target="nl.hanze.itv1l.parkingsimulation.models.cars.Car">
+      <point x="0.0" y="-14.5" />
+      <point x="328.5" y="543.0" />
+      <point x="222.5" y="543.0" />
+      <point x="22.0" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.views.tabs.QueuesTabView" target="nl.hanze.itv1l.parkingsimulation.views.tabs.Tab">
+      <point x="0.0" y="-14.5" />
+      <point x="590.75" y="306.0" />
+      <point x="784.559963768116" y="306.0" />
+      <point x="-17.0" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.views.sideTabs.Graph" target="nl.hanze.itv1l.parkingsimulation.views.View">
+      <point x="0.0" y="-14.5" />
+      <point x="194.99999999999994" y="227.0" />
+      <point x="520.0666666666666" y="227.0" />
+      <point x="-14.600000000000023" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.models.CarParkModel" target="nl.hanze.itv1l.parkingsimulation.models.Model">
+      <point x="0.0" y="-14.5" />
+      <point x="361.16666666666663" y="54.0" />
+      <point x="547.4791666666666" y="54.0" />
+      <point x="-20.5" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.models.CarParkModel.ParkingSpot" target="nl.hanze.itv1l.parkingsimulation.models.CarParkModel">
+      <point x="0.0" y="-14.5" />
+      <point x="422.16666666666663" y="138.0" />
+      <point x="391.91666666666663" y="138.0" />
+      <point x="30.75" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.models.Time.DayOfTheWeek" target="nl.hanze.itv1l.parkingsimulation.models.Time">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.controllers.Controller" target="nl.hanze.itv1l.parkingsimulation.models.Model">
+      <point x="0.0" y="-14.5" />
+      <point x="735.6666666666666" y="54.0" />
+      <point x="588.4791666666666" y="54.0" />
+      <point x="20.5" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.views.CarParkView" target="nl.hanze.itv1l.parkingsimulation.views.View">
+      <point x="0.0" y="-14.5" />
+      <point x="912.559963768116" y="207.0" />
+      <point x="563.8666666666667" y="207.0" />
+      <point x="29.200000000000045" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.views.tabs.ArrivalsTabView" target="nl.hanze.itv1l.parkingsimulation.views.tabs.Tab">
+      <point x="0.0" y="-14.5" />
+      <point x="1087.25" y="306.0" />
+      <point x="818.559963768116" y="306.0" />
+      <point x="17.0" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.controllers.DataController" target="nl.hanze.itv1l.parkingsimulation.controllers.Controller">
+      <point x="0.0" y="-14.5" />
+      <point x="653.6666666666666" y="138.0" />
+      <point x="723.0416666666666" y="138.0" />
+      <point x="-12.625" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.views.tabs.PopulationTabView" target="nl.hanze.itv1l.parkingsimulation.views.tabs.Tab">
+      <point x="0.0" y="-14.5" />
+      <point x="752.75" y="316.0" />
+      <point x="795.8932971014492" y="316.0" />
+      <point x="-5.666666666666629" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.views.sideTabs.PieGraphView" target="nl.hanze.itv1l.parkingsimulation.views.sideTabs.Graph">
+      <point x="0.0" y="-14.5" />
+      <point x="265.74999999999994" y="316.0" />
+      <point x="214.99999999999994" y="316.0" />
+      <point x="20.0" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.controllers.SettingTabsController" target="nl.hanze.itv1l.parkingsimulation.controllers.Controller">
+      <point x="0.0" y="-14.5" />
+      <point x="817.6666666666666" y="138.0" />
+      <point x="748.2916666666666" y="138.0" />
+      <point x="12.625" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.models.cars.AdHocCar" target="nl.hanze.itv1l.parkingsimulation.models.cars.Car">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.views.View" target="nl.hanze.itv1l.parkingsimulation.controllers.Controller">
+      <point x="0.0" y="-14.5" />
+      <point x="534.6666666666666" y="128.0" />
+      <point x="697.7916666666666" y="128.0" />
+      <point x="-37.875" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.views.SideTabsView" target="nl.hanze.itv1l.parkingsimulation.views.View">
+      <point x="0.0" y="-14.5" />
+      <point x="592.6692028985507" y="227.0" />
+      <point x="534.6666666666666" y="227.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.models.cars.ParkingPassCar" target="nl.hanze.itv1l.parkingsimulation.models.cars.Car">
+      <point x="0.0" y="-14.5" />
+      <point x="64.5" y="543.0" />
+      <point x="178.5" y="543.0" />
+      <point x="-22.0" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.views.sideTabs.PieGraphView.ValueType" target="nl.hanze.itv1l.parkingsimulation.views.sideTabs.PieGraphView">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.views.SettingTabsView" target="nl.hanze.itv1l.parkingsimulation.views.View">
+      <point x="0.0" y="-14.5" />
+      <point x="67.5" y="217.0" />
+      <point x="505.4666666666666" y="217.0" />
+      <point x="-29.200000000000045" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.views.tabs.SubscribersTabView" target="nl.hanze.itv1l.parkingsimulation.views.tabs.Tab">
+      <point x="0.0" y="-14.5" />
+      <point x="924.75" y="316.0" />
+      <point x="807.2266304347825" y="316.0" />
+      <point x="5.666666666666629" y="14.5" />
+    </edge>
+    <edge source="nl.hanze.itv1l.parkingsimulation.controllers.CarParkController" target="nl.hanze.itv1l.parkingsimulation.controllers.Controller">
+      <point x="0.0" y="-14.5" />
+      <point x="990.1666666666666" y="128.0" />
+      <point x="773.5416666666666" y="128.0" />
+      <point x="37.875" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8999999999999999" x="622.0000000000001" y="265.4444444444445" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
