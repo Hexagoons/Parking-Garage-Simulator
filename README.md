@@ -1,43 +1,35 @@
-# Parkeersimulator
+# Parking Simulator
 
 ## Cityparking Groningen
-De parkeergarage “Cityparking Groningen” bevindt zich in het centrum van Groningen, een grote
-stad in het noordoosten van Nederland. De garage heeft 500 parkeerplekken verdeeld over drie
-verdiepingen. Het bedrijf heeft 15 werknemers en is 24 uur per dag, zeven dagen per week open.
+The "Cityparking Groningen" parking garage is located in the center of Groningen, a large city in the northeast of the Netherlands. The garage has 500 parking spaces spread over three floors. The company has 15 employees and is open 24 hours a day, seven days a week.
 
-## Reeds geïmplementeerde functies
-* Een simulatie van het aankomen en vertrekken van de klanten.
+## Functions already implemented
+* A simulation of the arrival and departure of customers.
     * Queues
-    * Aankomst van gewone klanten en abonnementhouders.
-* Betaling bij vertrek.
-    * Reguliere betalingen
-    * Gebruik van abonnement
-* Een grafische weergave van de bezetting van de garage.
+    * Arrival of regular customers and season ticket holders.
+* Payment upon departure.
+    * Regular payments
+    * Use of subscriptions
+* A graphic representation of the occupation of the garage.
 
 ## Sprints
 ### Sprint 1
-* Eindrapport
-    * [x] Probleem definitie
-    * [x] Analyse van de as-is situatie
+* Final report
+    * [x] Problem definition
+    * [x] Analysis of the as-is situation
 
 ### Sprint 2
-* [x] Refactor naar MVC
-* Eindrapport
-    * Eerste uitbreidingen
-        * [ ] Before and After UML klasse digrammen
-        * [ ] Sequentie diagran waarin één stap van de simulatie wordt beschreven.
+* [x] Refactor to MVC
+* Final report
+    * First extensions
+        * [x] Before and After UML class digrams
+        * [x] Sequence diagram describing one feature of the simulation.
 
 ### Sprint 3
 * Requirements
-    * [ ] Een simpele GUI maken
-    * [x] Abonnement plekken
-    * [ ] Extra Views toevoegen
-    * [ ] Verbeteren van de simulatie
-    * [ ] Een klasse voor klanten met reserveringen toevoegen
-    * [ ] Verbetering van de GUI
-    * BONUS
-        * [ ] Event-driven simulatie
-        * [ ] Foutparkeerders (neemt twee plekken in)
-        * [ ] Verander de richting van één van de ingangen om er voor te zorgen dat er minder rijen zijn.
-        * [ ] Inrichting parkeergarage aanpasbaar maken
-        * [ ] _Je eigen verbeteringen_
+    * [x] Pre-allocated places for subscribers
+    * [x] Add extra views (MVC)
+    * [x] Improve the simulation
+    * [x] Enable customers to reserve a parking spot in advance
+    * [x] Improvements upon the GUI
+    * [x] Make the layout of the parking garage adaptable
